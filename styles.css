@@ -1,0 +1,81 @@
+/* UI Start */
+/* css initial setup styling for all containers*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+::selection {
+    background-color: greenyellow;
+}
+
+/* styling rows */
+.row {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:25px;
+    padding:25px;
+    background-color: wheat;
+    border-radius: 5px;
+
+    gap: 10px;
+}
+
+/* styling selection container */
+div:first-child, div:first-child+div {
+    background: rgb(227,221,0);
+    background: linear-gradient(90deg, rgba(227,221,0,1) 0%, rgba(219,110,9,1) 35%);
+    color:white;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* individual element styling */
+/* styling select menu */
+select {
+    appearance: none;
+    border:none;
+    cursor:pointer;
+    focus:none;
+    padding:1rem 6rem;
+    font-size: large;
+}
+
+/* styling generate button  */
+button {
+    
+    background-color: yellowgreen;
+    color:white;
+    padding:1rem 2rem;
+    cursor:pointer;
+    border:none;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: rgb(165, 239, 61);
+}
+
+/* styling paragraph */
+p {
+    background-color: aliceblue;
+}
+
+/* UI Complete */
+
+
